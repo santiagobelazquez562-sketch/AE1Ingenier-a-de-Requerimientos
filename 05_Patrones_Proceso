@@ -1,1 +1,17 @@
+Parte 5 — Patrones de proceso
 
+Situación recurrente identificada: el aislamiento prolongado del equipo de desarrollo respecto de los usuarios finales, con la consecuente desactualización de los requerimientos, tal como ocurrió en este proyecto.
+
+Nombre del patrón: "Comunicación Colaborativa Continua" (patrón de fase, según la taxonomía de Pressman), desarrollado en la Actividad N°3 para este mismo escenario.
+
+Contexto en el que aparece: proyectos de larga duración donde el equipo técnico avanza con la construcción del software sin mantener instancias periódicas de contacto con los usuarios, generalmente por restricciones de tiempo, dispersión horaria del personal (distintas sedes o turnos) o imposibilidad de sostener reuniones presenciales frecuentes.
+
+Problema: aislamiento prolongado del equipo respecto a los usuarios finales, que deriva en falta de alineación funcional, riesgo de retrabajo masivo y ausencia de validación temprana en el ciclo de vida del software.
+
+Solución o estrategia propuesta: retomar el diálogo mediante consultas y re-entrevistas focalizadas con los referentes de cada área, documentar y validar los requerimientos mediante diagramas y prototipos generados con la herramienta CASE, y sostener un ciclo de validación asincrónica remota que permita corregir el rumbo sin depender de reuniones presenciales constantes.
+
+Por qué es un patrón de fase: porque el problema no se limita a una tarea puntual: fractura la fase completa de Comunicación y arrastra directamente a la fase de Construcción/Desarrollo, exigiendo una reestructuración de todo el proceso metodológico.
+
+Utilidad del patrón dentro del proceso: es reutilizable en cualquier proyecto propenso al aislamiento técnico, especialmente en contextos donde no es posible sostener reuniones presenciales frecuentes con los usuarios.
+
+Patrones relacionados: Patrón de Prototipación Rápida, Patrón de Desarrollo Incremental y Patrón de Negociación y Priorización de Requerimientos.
