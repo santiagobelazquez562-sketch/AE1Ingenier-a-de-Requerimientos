@@ -1,42 +1,30 @@
-*1. Herramienta propuesta
+Propuesta de Herramienta CASE
+
+1. Herramienta propuesta
 Visible Analyst (o herramientas CASE integradas similares de modelado y diseño).
 
-*2. Actividades que permite apoyar
-Modelado y Análisis de Requerimientos y Procesos: Permite documentar, analizar y diagramar el flujo de datos, estructuras y comportamientos del sistema
-de forma estructurada para presentarlos en las reuniones presenciales.
+2. Actividades que permite apoyar
 
-Construcción y Validación de Prototipos de Pantalla/Interfaz: Apoya la creación de prototipos funcionales y visuales para evaluar y validar la 
-interacción humano-computadora (HCI) directamente con los usuarios en las sesiones de trabajo presenciales.
+Modelado y Análisis de Requerimientos y Procesos: Permite documentar, analizar y diagramar el flujo de datos, estructuras y comportamientos del sistema de forma estructurada, para compartirlos con los usuarios en instancias de validación remota.
+Construcción y Validación de Prototipos de Pantalla/Interfaz: Apoya la creación de prototipos funcionales y visuales para evaluar y validar la interacción humano-computadora (HCI) de forma remota con los usuarios, sin necesidad de sesiones de trabajo presenciales.
+Gestión del Repositorio de Datos: Mantiene centralizada la documentación, el diccionario de datos y las reglas del negocio acordadas durante las instancias de validación asincrónica.
 
-Gestión del Repositorio de Datos: Mantiene centralizada la documentación, el diccionario de datos y las reglas del negocio acordadas durante las reuniones.
+3. Funcionalidades relevantes
 
-*3. Funcionalidades relevantes
 Diagramación gráfica: Creación de Diagramas de Flujo de Datos (DFD) lógicos y físicos, diagramas de casos de uso y diagramas UML (clases, secuencias, actividades).
-
 Diccionario y Repositorio de Datos Integrado: Definición centralizada de elementos, estructuras y almacenes de datos para asegurar consistencia en todo el proyecto.
+Comprobación de errores y análisis de consistencia: Validación automática de enlaces, balanceo de DFDs y consistencia entre diagramas y el repositorio antes de compartirlos con el cliente.
+Generación de Prototipos de Entrada/Salida: Diseño gráfico de pantallas, formularios web y reportes que representan fielmente el comportamiento final de la interfaz, para ser enviados en las instancias de validación remota.
 
-Comprobación de errores y análisis de consistencia: Validación automática de enlaces, balanceo de DFDs y consistencia entre
-diagramas y el repositorio antes de exponerlos al cliente.
+4. Ventajas de su utilización
 
-Generación de Prototipos de Entrada/Salida: Diseño gráfico de pantallas, formularios web y reportes que representan fielmente 
-el comportamiento final de la interfaz para ser mostrados en las demostraciones presenciales.
-
-*4. Ventajas de su utilización
-Mejora de la comunicación en reuniones presenciales: La presentación de prototipos e interfaces detalladas durante las sesiones presenciales facilita 
-el diálogo, permitiendo que los usuarios comprendan visualmente el comportamiento del sistema y brinden retroalimentación inmediata.
-
-Documentación continua y centralizada: La herramienta actúa como una "única fuente de verdad", garantizando que todo el equipo técnico trabaje alineado
-con los acuerdos alcanzados en las reuniones con los usuarios.
-
+Mitigación de la falta de comunicación presencial: La generación de prototipos e interfaces detalladas permite enviar avances visuales a los usuarios para recibir retroalimentación asincrónica, sin depender de encuentros cara a cara.
+Documentación continua y centralizada: La herramienta actúa como una "única fuente de verdad", garantizando que todo el equipo técnico trabaje alineado con los acuerdos alcanzados en las instancias de validación remota con los usuarios.
 Reducción de errores de diseño: Las comprobaciones automáticas de consistencia evitan incoherencias lógicas entre la base de datos, los procesos y las interfaces.
-
 Facilidad para el mantenimiento futuro: Permite que el sistema sea modificable y documentado adecuadamente para posteriores iteraciones o correcciones.
 
-*5. Posibles limitaciones
-Dependencia de la interacción humana: La herramienta CASE es un soporte técnico para el diseño y prototipado; requiere de las reuniones presenciales
-y de la recolección interactiva de datos para capturar la empatía, el contexto operativo y las necesidades reales de los usuarios.
+5. Posibles limitaciones
 
+No sustituye completamente la interacción humana: Aunque la herramienta CASE facilita la documentación y el diseño de prototipos, no reemplaza totalmente la empatía, el contexto operativo ni las necesidades reales de los usuarios, que solo se obtienen mediante la recolección interactiva de datos.
 Curva de aprendizaje y costo de adopción: Requiere capacitación previa del equipo en la metodología y en el uso de la herramienta.
-
-Riesgo de desalineación si no se sostienen las reuniones: Si los prototipos creados en la herramienta no se presentan ni validan periódicamente en 
-las reuniones presenciales con los usuarios, persiste el riesgo de desarrollar un sistema rechazado o no utilizado.
+Riesgo de desalineación si no hay validación asincrónica periódica: Si los prototipos creados en la herramienta no se envían y validan periódicamente con los usuarios de forma remota, persiste el riesgo de desarrollar un sistema rechazado o no utilizado.
