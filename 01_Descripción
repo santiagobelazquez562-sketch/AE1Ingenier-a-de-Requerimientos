@@ -2,6 +2,12 @@
 **ESCENARIO 4 – "Un equipo de desarrollo trabaja durante varios meses en un sistema de gestión 
 académica sin mantener reuniones periódicas con los usuarios finales".**
 
+Integrantes:
+Gutsnisky Gabriel
+Velazquez Bautista Santiago
+Wetzel Alan
+Correa Beltrán José Martín
+
 **Sistema principal:** Sistema de gestión académica. Dicho sistema sirve para digitalizar, organizar y administrar todo el funcionamiento de la universidad, encargándose se gestionar trámites de inscripción de los alumnos, cobro de cuotas, registro de las notas de los exámenes y crear informes para las autoridades de la institución.
 
 **Subsistemas:** Son módulos dentro del programa principal, donde cada uno se encarga de realizar un grupo de tareas específicas de la institución.
