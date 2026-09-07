@@ -1,1 +1,25 @@
+Parte 4 — Modelado del proceso de software
 
+1. Descripción breve del escenario: un equipo de desarrollo lleva varios meses construyendo el Sistema de Gestión Académica sin contacto con los usuarios finales. Al detectarse el aislamiento y no poder sostener reuniones presenciales frecuentes, se decide reabrir la comunicación de forma asincrónica, apoyándose en diagramas y prototipos para validar remotamente cada módulo.
+
+2. Principales actividades del proceso:
+
+Comunicación: relevamiento de necesidades mediante consultas asincrónicas (cuestionarios, correos, formularios) a los referentes de cada área.
+Modelado y diagramación: construcción de diagramas de flujo de datos (DFD) y diagramas UML que documentan el proceso actual y el esperado.
+Prototipado: generación de prototipos de pantallas y formularios con la herramienta CASE.
+Validación asincrónica: envío de diagramas y prototipos a los usuarios para revisión remota.
+Construcción incremental: se incorpora el módulo ya validado, actualizando el repositorio de datos centralizado.
+
+3. Tareas por actividad:
+
+Comunicación → redactar y enviar el cuestionario, relevar cambios normativos, registrar respuestas.
+Modelado → construir el DFD o diagrama UML del módulo, verificar su consistencia con el repositorio de datos.
+Prototipado → diseñar la pantalla o formulario, generar el prototipo navegable.
+Validación asincrónica → enviar el material a los referentes, recopilar observaciones por escrito.
+Construcción → programar el módulo ya validado, actualizar la documentación centralizada.
+
+4. Relación entre actividades y tareas: cada actividad depende del resultado de la anterior: el cuestionario alimenta el diagrama, el diagrama alimenta el prototipo, y las observaciones de la validación vuelven a alimentar un nuevo ciclo de modelado antes de construir la versión definitiva del módulo.
+
+5. Representación gráfica: te dejo abajo un diagrama circular con las 5 actividades armado para este flujo.
+
+6. Técnica de modelado utilizada: diagrama de flujo circular, propio de un flujo de proceso evolutivo, adaptado para representar un ciclo de validación asincrónica (sin reuniones presenciales) apoyado en diagramas y prototipos generados con herramienta CASE.
