@@ -1,1 +1,24 @@
+## Parte 3 – Desarrollo evolutivo, iterativo, incremental y prototipación
 
+### Conveniencia de utilizar desarrollo evolutivo:
+* Resulta plenamente conveniente adoptar un modelo de proceso evolutivo no solo para adaptarse a requerimientos dinámicos, sino fundamentalmente para restablecer la comunicación y restaurar la confianza perdida entre el equipo técnico y el personal de la institución. 
+* Al adoptar un proceso evolutivo, el trabajo deja de ser un desarrollo aislado y a ciegas; el progreso se vuelve visible mediante demostraciones frecuentes, lo que permite mitigar la desconfianza mutua acumulada y alinear el trabajo técnico con las expectativas del usuario.
+
+### Correspondencia de un enfoque iterativo:
+* El enfoque iterativo es esencial en este caso particular porque rompe con el esquema de esperar hasta el final para ver los resultados. 
+* A través de las iteraciones, los usuarios tienen la oportunidad de ver el sistema en funcionamiento de forma regular, lo que les permite generar y refinar nuevos requerimientos con base en lo que están experimentando al interactuar con las nuevas versiones y prototipos. 
+* Esto es vital para reestructurar el proceso y captar necesidades operativas que no estaban contempladas al inicio.
+
+### Apropiación de un desarrollo incremental:
+* El desarrollo incremental resulta altamente apropiado porque permite entregar el software en partes funcionales de manera paulatina. 
+* Para este escenario de desalineación funcional, entregar software en incrementos ejecutables reduce los riesgos de construir componentes enteros basados en supuestos erróneos. 
+* Además, ir mostrando diferentes avances funcionales asegura que los usuarios reciban valor de forma temprana y recuperen la confianza en la capacidad de respuesta del equipo.
+
+### Conveniencia de utilizar prototipos:
+* Sería sumamente conveniente emplear prototipos rápidos, ya que, si bien se conocen los objetivos generales del sistema, existe una grave falta de claridad y comunicación entre el equipo de desarrollo y los usuarios finales. 
+* El uso de prototipos navegables permite mostrar e interactuar con la interfaz por partes de forma tangible antes de seguir modificando el código. 
+* Fomentar esta experimentación temprana ayuda a descubrir nuevos requerimientos y reduce drásticamente el costo de cometer errores a gran escala o rediseñar módulos completos.
+
+### Cómo la retroalimentación de los usuarios puede influir sobre el producto:
+* La retroalimentación de los usuarios actúa como el motor central que dirige la evolución del sistema, volviéndose un factor esencial porque el modelo seleccionado depende por completo del usuario para avanzar correctamente. 
+* Al presentar prototipos o incrementos operativos en etapas tempranas, la respuesta directa y continua influye de manera inmediata sobre el producto: modifica el plan a seguir, reajusta las prioridades en el desarrollo y garantiza que las siguientes iteraciones resuelvan los problemas reales de los directivos y docentes.
