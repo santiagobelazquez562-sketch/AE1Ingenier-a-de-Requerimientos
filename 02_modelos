@@ -1,46 +1,40 @@
-Modelos y procesos de software
+## Modelos y procesos de software
 
-1. Características principales del proyecto:
-** Contexto del proyecto: Se trata de un sistema de información de gestión académica/administrativa que ya lleva varios meses en desarrollo y cuenta con un plazo de entrega establecido.
-** Modelo que se estaba utilizando: Se venía aplicando de forma implícita un enfoque predictivo o secuencial (modelo en cascada), caracterizado por una planificación rígida y una ejecución lineal de las fases sin instancias intermedias de revisión.
-** Situación actual del software: El equipo técnico avanzó considerablemente en la codificación y el desarrollo de los módulos de manera aislada, pero sin mostrar versiones ejecutables ni avances tangibles a los usuarios.
-** Estado de la comunicación y el vínculo: Existe un desfase temporal significativo y una falta de comunicación prolongada entre el equipo de desarrollo y los usuarios finales (personal administrativo, directivos y docentes).
-** Situación y estado del usuario: El usuario se encuentra descontento e insatisfecho con la situación actual, generando un clima de desconfianza mutua acumulada ante el riesgo crítico de recibir un sistema desalineado de sus operaciones reales.
+### 1. Características principales del proyecto:
+* **Contexto del proyecto:** Se trata de un sistema de información de gestión académica/administrativa que ya lleva varios meses en desarrollo y cuenta con un plazo de entrega establecido.
+* **Modelo que se estaba utilizando:** Se venía aplicando de forma implícita un enfoque predictivo o secuencial (modelo en cascada), caracterizado por una planificación rígida y una ejecución lineal de las fases sin instancias intermedias de revisión.
+* **Situación actual del software:** El equipo técnico avanzó considerablemente en la codificación y el desarrollo de los módulos de manera aislada, pero sin mostrar versiones ejecutables ni avances tangibles a los usuarios.
+* **Estado de la comunicación y el vínculo:** Existe un desfase temporal significativo y una falta de comunicación prolongada entre el equipo de desarrollo y los usuarios finales (personal administrativo, directivos y docentes).
+* **Situación y estado del usuario:** El usuario se encuentra descontento e insatisfecho con la situación actual, generando un clima de desconfianza mutua acumulada ante el riesgo crítico de recibir un sistema desalineado de sus operaciones reales.
 
-2. Nivel de estabilidad de los requerimientos:
-** Los requerimientos cuentan con una especificación inicial, pero el conflicto principal no surge de que cambien constantemente, sino de la falta de validación y comunicación durante los meses de desarrollo
-** Debido al tiempo transcurrido, a la falta de comunicación y a los posibles cambios normativos o de procesos internos en el ámbito académico, la especificación inicial de requerimientos se encuentra desactualizada.
-** La especificación inicial se desactualiza no por modificaciones caóticas del cliente, sino porque el equipo construyó código avanzado a ciegas, sin mostrar avances ni contrastar los módulos con el comportamiento real de los procesos académicos y administrativos de la institución
+### 2. Nivel de estabilidad de los requerimientos:
+* Los requerimientos cuentan con una especificación inicial, pero el conflicto principal no surge de que cambien constantemente, sino de la falta de validación y comunicación durante los meses de desarrollo.
+* Debido al tiempo transcurrido, a la falta de comunicación y a los posibles cambios normativos o de procesos internos en el ámbito académico, la especificación inicial de requerimientos se encuentra desactualizada.
+* La especificación inicial se desactualiza no por modificaciones caóticas del cliente, sino porque el equipo construyó código avanzado a ciegas, sin mostrar avances ni contrastar los módulos con el comportamiento real de los procesos académicos y administrativos de la institución.
 
+### 3. Conveniencia de un enfoque predictivo o evolutivo:
+* Resulta claramente conveniente adoptar un enfoque evolutivo.
+* No se elige este enfoque por una inestabilidad técnica de los requerimientos, sino por la necesidad imperiosa de corregir un problema de comunicación y la desalineación con el cliente. El enfoque predictivo asume una linealidad rígida que mantendría el aislamiento y la falta de visibilidad de los avances; el enfoque evolutivo, en cambio, permite introducir ciclos de realimentación, re-entrevistas y validación constante del software ya construido para recuperar la confianza y garantizar que el sistema responda a lo que la institución realmente necesita.
 
-3. Conveniencia de un enfoque predictivo o evolutivo:
-** Resulta claramente conveniente adoptar un enfoque evolutivo.
-** No se elige este enfoque por una inestabilidad técnica de los requerimientos, sino por la necesidad imperiosa de corregir un problema de comunicación y la desalineación con el cliente. El enfoque predictivo asume una linealidad rígida que mantendría el aislamiento y la falta de visibilidad de los avances; el enfoque evolutivo, en cambio, permite introducir ciclos de realimentación, re-entrevistas y validación constante del software ya construido para recuperar la confianza y garantizar que el sistema responda a lo que la institución realmente necesita.
+### 4. Selección del modelo de proceso adecuado:
+* Se selecciona un Modelo de Desarrollo Evolutivo (complementado con prototipado).
 
+### 5. Fundamentación de la elección:
+* De acuerdo con los fundamentos de Pressman y Sommerville, cuando los requerimientos son volátiles y el software se desarrolla en un entorno donde la comunicación previa ha fallado, los modelos evolutivos permiten reestructurar el proceso mediante ciclos cortos. Esto asegura que el producto se construya de manera coordinada con el usuario, mitigando el riesgo de un sobretrabajo masivo.
 
-4. Selección del modelo de proceso adecuado:
-** Se selecciona un Modelo de Desarrollo Evolutivo (complementado con prototipado).
+### 6. Análisis de las ventajas y limitaciones del modelo seleccionado:
 
+#### Ventajas:
+* Permite la realineación temprana y continua con las necesidades reales de los usuarios.
+* Reduce el riesgo financiero y operativo al evitar construir componentes enteros basados en supuestos erróneos o desactualizados.
+* Facilita la detección temprana de errores y desviaciones.
+* Restaura la confianza y mejora la comunicación: Al incorporar demostraciones periódicas y avances tangibles, se rompe el aislamiento, se reduce la desconfianza mutua acumulada durante meses de trabajo a ciegas y se alinea la expectativa del cliente.
 
-5. Fundamentación de la elección:
-** De acuerdo con los fundamentos de Pressman y Sommerville, cuando los requerimientos son volátiles y el software se desarrolla en un entorno donde la comunicación previa ha fallado, los modelos evolutivos permiten reestructurar el proceso mediante ciclos cortos. Esto asegura que el producto se construya de manera coordinada con el usuario, mitigando el riesgo de un sobre trabajo masivo.
+#### Limitaciones:
+* Requiere una disponibilidad activa y constante de los usuarios para participar en las revisiones y validaciones, lo cual puede colisionar con sus tareas cotidianas.
+* Dificulta la previsibilidad estricta de plazos y costos cerrados en las etapas iniciales debido a la flexibilidad inherente al cambio.
 
-
-6. Análisis de las ventajas y limitaciones del modelo seleccionado:
-
-** Ventajas:
-*** Permite la realineación temprana y continua con las necesidades reales de los usuarios.
-*** Reduce el riesgo financiero y operativo al evitar construir componentes enteros basados en supuestos erróneos o desactualizados.
-*** Facilita la detección temprana de errores y desviaciones.
-*** Restaura la confianza y mejora la comunicación: Al incorporar demostraciones periodicas y avances tangibles, se rompe el aislamiento, se reduce la desconfianza mutua acumulada durante meses de trabajo a ciegas y se alinea la expectativa del cliente.
-
-** Limitaciones:
-*** Requiere una disponibilidad activa y constante de los usuarios para participar en las revisiones y validaciones, lo cual puede colisionar con sus tareas cotidianas.
-*** Dificulta la previsibilidad estricta de plazos y costos cerrados en las etapas iniciales debido a la flexibilidad inherente al cambio.
-*** Comparación de la alternativa seleccionada con el modelo en cascada:
-
-7. Comparación de la alternativa seleccionada con el modelo en cascada:
-** En este proyecto claramente se venía aplicando de forma implícita un modelo en cascada: se fijó un plazo de entrega y el equipo avanzó con la codificación durante meses de manera aislada, sin mostrar avances periódicos a los usuarios ni abrir canales de comunicación para revisiones intermedias.
-** Bajo ese modelo en cascada, la consecuencia directa fue la insatisfacción del cliente, la desconfianza acumulada y el riesgo crítico de entregar un sistema que no respondía a sus necesidades reales, ya que los errores o desvíos solo se habrían descubierto al final de todo.
-** Por esta razón, decidimos cambiar al modelo evolutivo: en lugar de seguir a ciegas con la estructura rígida de la cascada, pasamos a un esquema donde se van mostrando diferentes avances e incrementos funcionales. Esto permite que los usuarios recuperen la confianza en el equipo, que el equipo tenga bien en claro qué es lo que realmente necesita el usuario y que las correcciones se realicen a tiempo.
-
+### 7. Comparación de la alternativa seleccionada con el modelo en cascada:
+* En este proyecto claramente se venía aplicando de forma implícita un modelo en cascada: se fijó un plazo de entrega y el equipo avanzó con la codificación durante meses de manera aislada, sin mostrar avances periódicos a los usuarios ni abrir canales de comunicación para revisiones intermedias.
+* Bajo ese modelo en cascada, la consecuencia directa fue la insatisfacción del cliente, la desconfianza acumulada y el riesgo crítico de entregar un sistema que no respondía a sus necesidades reales, ya que los errores o desvíos solo se habrían descubierto al final de todo.
+* Por esta razón, decidimos cambiar al modelo evolutivo: en lugar de seguir a ciegas con la estructura rígida de la cascada, pasamos a un esquema donde se van mostrando diferentes avances e incrementos funcionales. Esto permite que los usuarios recuperen la confianza en el equipo, que el equipo tenga bien en claro qué es lo que realmente necesita el usuario y que las correcciones se realicen a tiempo.
